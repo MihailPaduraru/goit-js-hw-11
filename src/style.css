@@ -8,7 +8,7 @@ body {
 .search-form {
   text-align: center;
   margin: 20px 0;
-  background-color: blue;
+  background-color: #3a3ad0;
   height: 60px;
   display: flex;
   justify-content: center;
@@ -35,7 +35,7 @@ body {
 
 button {
   background-color: transparent;
-  border: transpar;
+  border: transparent;
 }
 .gallery {
   display: flex;
@@ -55,9 +55,12 @@ button {
 }
 
 .info {
+  display: flex;
   padding: 10px;
 }
 
 .info-item {
+  display: flex;
+  flex-direction: column;
   margin: 5px 0;
 }

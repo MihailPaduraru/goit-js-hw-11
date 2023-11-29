@@ -144,22 +144,22 @@ function createImageCard(image) {
 
   const likes = document.createElement('p');
   likes.className = 'info-item';
-  likes.innerHTML = `<b>Likes:</b> ${image.likes}`;
+  likes.innerHTML = `<b>Likes</b> ${image.likes}`;
   info.appendChild(likes);
 
   const views = document.createElement('p');
   views.className = 'info-item';
-  views.innerHTML = `<b>Views:</b> ${image.views}`;
+  views.innerHTML = `<b>Views</b> ${image.views}`;
   info.appendChild(views);
 
   const comments = document.createElement('p');
   comments.className = 'info-item';
-  comments.innerHTML = `<b>Comments:</b> ${image.comments}`;
+  comments.innerHTML = `<b>Comments</b> ${image.comments}`;
   info.appendChild(comments);
 
   const downloads = document.createElement('p');
   downloads.className = 'info-item';
-  downloads.innerHTML = `<b>Downloads:</b> ${image.downloads}`;
+  downloads.innerHTML = `<b>Downloads</b> ${image.downloads}`;
   info.appendChild(downloads);
 
   card.appendChild(imageElement);
